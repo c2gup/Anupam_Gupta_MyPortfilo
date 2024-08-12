@@ -1,0 +1,24 @@
+/* index.css or App.css */
+body {
+  background-color: #0c0c0c; /* Replace with your desired color code */
+}
+
+/* index.css or App.css */
+.menuBurger {
+  width: .3vmax !important;
+  height: 3.5vmax !important;
+}
+
+
+
+
+.logo {
+  width: auto; /* Maintain aspect ratio */
+  height: 3.5vmax;
+}
+
+/* Commented out old menuBurger styles for reference */
+/* .menuBurger {
+  width: 7vmax;
+  height: 3.6vmax;
+} */
