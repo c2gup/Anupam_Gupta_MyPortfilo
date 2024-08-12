@@ -43,7 +43,7 @@ function Hero() {
 
           <div>
             <button className="bg-[#feb901] text-3xl p-10 bg-opacity-5 text-yellow-700 hover:bg-[#feb901] hover:text- mx-3 rounded-3xl border border-yellow-700 px-4 py-2">
-              Resumeblack
+              Resume 
             </button>
             <button className="text-3xl p-10 bg-[#feb901] text-black mx-3 rounded-3xl hover:bg-opacity-5 border hover:text-[#feb901] border-yellow-700 px-4 py-2">
               Hire Me
