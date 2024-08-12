@@ -2,11 +2,13 @@ import React from "react";
 import anupam from "../../assets/anupamDp.jpg";
 import { IoArrowDown } from "react-icons/io5";
 import { LuMessagesSquare } from "react-icons/lu";
+import { Link } from "react-scroll";
+
 
 function DiscussProject() {
   return (
     <>
-      <div className="flex justify-center items-center my-10 px-4">
+      <div  className="flex  justify-center items-center my-10 px-4">
         <p className="text-4xl md:text-6xl lg:text-7xl font-sans font-bold text-[#feb901] text-center">
           Discuss Project
         </p>
@@ -34,12 +36,12 @@ function DiscussProject() {
           <button className="bg-[#feb901] bg-opacity-5 text-yellow-700 hover:bg-[#feb901] text-lg md:text-xl font-sans font-medium flex items-center justify-center gap-2 p-3 md:p-4 lg:p-2 rounded-3xl border border-yellow-700 hover:bg-[#feb901] hover:text-black">
             <IoArrowDown size={24} /> Resume
           </button>
-          <a href="contact-us">
+          <Link  to="disc" smooth={true} duration={700} className="cursor-pointer text-blue-500" >
           <button className="bg-[#feb901] text-black text-lg md:text-xl lg:text-2xl font-sans font-medium flex items-center justify-center gap-2 p-3 md:p-4 lg:p-2 rounded-3xl border border-yellow-700 hover:bg-opacity-5 hover:text-[#feb901]">
             <LuMessagesSquare size={24} />
             Discuss Project
           </button>
-          </a>
+          </Link>
         </div>
       </div>
     </>

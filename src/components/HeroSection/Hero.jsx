@@ -7,6 +7,7 @@ import fig from "../../assets/Hero_section_icon/figma.1ef17d58.svg";
 import tailwindcss from "../../assets/Hero_section_icon/tailwindcss.eae27b48.svg";
 import nextjs from "../../assets/Hero_section_icon/nextjs.a98ac74a.svg";
 import javascript from "../../assets/Hero_section_icon/javascript.6a338998.svg";
+import { Link } from 'react-scroll';
 
 import anupam  from "../../assets/vecteezy_3d-male-.png"
 
@@ -45,9 +46,13 @@ function Hero() {
             <button className="bg-[#feb901] text-3xl p-10 bg-opacity-5 text-yellow-700 hover:bg-[#feb901] hover:text- mx-3 rounded-3xl border border-yellow-700 px-4 py-2">
               Resume 
             </button>
-            <button className="text-3xl p-10 bg-[#feb901] text-black mx-3 rounded-3xl hover:bg-opacity-5 border hover:text-[#feb901] border-yellow-700 px-4 py-2">
+           <Link  to="disc" smooth={true} duration={700} className="cursor-pointer text-blue-500" >
+           
+           <button className="text-3xl p-10 bg-[#feb901] text-black mx-3 rounded-3xl hover:bg-opacity-5 border hover:text-[#feb901] border-yellow-700 px-4 py-2">
               Hire Me
             </button>
+           
+           </Link>
           </div>
         </div>
 

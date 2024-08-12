@@ -4,6 +4,9 @@ import music from '../../assets/About/money.0d80412b.svg';
 import money from '../../assets/About/money.0d80412b.svg';
 import travelling from '../../assets/About/travelling.da9488d3.svg';
 import mountain from '../../assets/About/mountain.ab1a465a.svg';
+import anupam from '../../assets/anupamDp.jpg';
+import { Link } from 'react-scroll';
+
 
 function About() {
   return (
@@ -19,7 +22,7 @@ function About() {
           <div className='w-full lg:w-1/2'>
             <div className='flex gap-2 px-6 py-2'>
               <div className="border-solid border-white border-2 rounded-full">
-                <img src={music} alt="" />
+                <img src={anupam} alt="" className='w-12 rounded-full p-1'  />
               </div>
               <h1 className="text-[#feb901] text-3xl md:text-4xl lg:text-5xl font-medium font-serif">I Love</h1>
             </div>
@@ -66,9 +69,11 @@ function About() {
         </div>
 
         <div className='flex justify-center items-center mb-10 px-4'>
-          <button className="bg-white text-2xl md:text-3xl lg:text-4xl bg-opacity-5 font-normal text-[#feb901] mx-3 rounded-3xl hover:bg-[#feb901] hover:text-black border border-yellow-700 px-4 py-2">
+        <Link to="disc" smooth={true} duration={500} className="cursor-pointer text-blue-500">
+        <button className="bg-white text-2xl md:text-3xl lg:text-4xl bg-opacity-5 font-normal text-[#feb901] mx-3 rounded-3xl hover:bg-[#feb901] hover:text-black border border-yellow-700 px-4 py-2">
             Contact ME 
           </button>
+          </Link>
         </div>
       </div>
     </>
