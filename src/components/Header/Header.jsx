@@ -1,17 +1,19 @@
 import React from 'react';
 import { ReactNavbar } from 'overlay-navbar';
 import '../../App.css'
+import logse from '../../assets/Logos/Anupaam___Gupta-removebg-preview.png'
 
 const Header = () => {
   return (
     <div className='bg-[#feb901] flex flex-row-reverse'>
       <ReactNavbar
-        logo="path/to/logo.png" // Make sure to provide the correct path to your logo
+        logo={logse} // Make sure to provide the correct path to your logo
         logoWidth="100px"
         logoHeight="auto"
         navColor1="#feb901"
+        
         burgerColor="#ffffff"
-        navColor2="#0f4c75"
+        navColor2="#0c0c0c"
         link1Text="Home"
         link2Text="About"
         link3Text="Contact"
