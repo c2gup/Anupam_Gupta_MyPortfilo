@@ -30,7 +30,7 @@ function Hero() {
               Hello! I'm <span className="text-[#feb901]">Anupam Gupta</span>
             </h1>
             <p className="text-3xl leading-10 font-bold text-white mt-4">
-              <span>A </span> Front End Developer | Web Designer
+              <span>A </span> FULL STACK Developer | Web Designer
             </p>
             <p className="text-3xl leading-10 text-white mt-4">
               with{" "}
