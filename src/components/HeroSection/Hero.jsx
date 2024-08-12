@@ -62,20 +62,20 @@ function Hero() {
           "
           />
 
-          <div className="absolute top-[25%] gap-1 sm:gap-3 p-1 sm:gap-1  flex  justify-center text-3xl items-center  sm:p-3 rounded-full font-medium sm:text-base   bg-[#ecedee]   sm:top-[20%] md:top-[15%] sm:left-2 md:-left-0 xl:-left-[5%]">
+          <div className="absolute top-[20%] gap-1 sm:gap-3 p-1   flex  justify-center text-3xl items-center  sm:p-3 rounded-full font-medium sm:text-base   bg-[#ecedee]   sm:top-[20%] md:top-[15%] left-9 sm:left-2 md:-left-0 xl:-left-[5%]">
             <div className="rounded-s-full">
               <img src={javascript} alt="" srcset=""  className=" w-7  sm:w-5 lg:w-11 xl:w-auto object-contain hidden dark:block" />
             </div>
             <p className="text-xs sm:text-base md:text-lg lg:text-xl xl:text-2xl font-medium">Javascript</p>
           </div>
-          <div className="absolute top-[50%] sm:gap-3 gap-1 p-1 sm:top-[40%] md:top-[45%] -left-[1%] md:-left-[15%] sm:p-3 lg:-left-[20%] xl:-left-[35%]  bg-[#ecedee] flex rounded-full  text-3xl   md:text-lg lg:text-xl xl:text-2xl font-medium   sm:text-base items-center  ">
+          <div className="absolute top-[42%] sm:gap-3 gap-1 p-1 sm:top-[40%] md:top-[45%] -left-[2%] md:-left-[15%] sm:p-3 lg:-left-[20%] xl:-left-[35%]  bg-[#ecedee] flex rounded-full  text-3xl   md:text-lg lg:text-xl xl:text-2xl font-medium   sm:text-base items-center  ">
             <div className="rounded-s-full">
               <img src={ret} alt="" srcset="" className="w-7 sm:w-10 lg:w-11 xl:w-auto object-contain hidden dark:block"  />
             </div>
             <p className="text-xs sm:text-base md:text-lg lg:text-xl xl:text-2xl font-medium">React</p>
           </div>
 
-          <div className="  flex gap-1 sm:gap-3   sm:text-base items-center p-1 rounded-full  text-3xl sm:p-3  md:text-lg lg:text-xl xl:text-2xl font-medium      bg-[#ecedee]   absolute top-[75%] sm:top-[70%] md:top-[75%] md:-left-[5%] lg:-left-[15%] xl:-left-[25%]">
+          <div className="  flex gap-1 sm:gap-3   sm:text-base items-center p-1 rounded-full  text-3xl sm:p-3  md:text-lg lg:text-xl xl:text-2xl font-medium      bg-[#ecedee]   absolute top-[70%] sm:top-[70%] md:top-[75%] md:-left-[5%] lg:-left-[15%] xl:-left-[25%]">
             <div className="rounded-s-full">
               <img src={nextjs} alt="" srcset="" className="w-7 sm:w-10 lg:w-11 xl:w-auto object-contain hidden dark:block"  />
             </div>
