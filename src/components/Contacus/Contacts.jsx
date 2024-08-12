@@ -59,7 +59,7 @@ const ContactPageOne = () => {
   };
 
   return (
-    <div className="flex justify-center items-center py-12 px-4 sm:px-6 lg:px-8">
+    <div  id="contact-us" className="flex justify-center items-center py-12 px-4 sm:px-6 lg:px-8">
       <Toaster />
       <div className="relative bg-white dark:bg-theme-white w-full flex flex-col items-center p-6 sm:p-8 md:p-10 lg:p-12 rounded-2xl md:rounded-3xl lg:rounded-4xl max-w-7xl">
         {/* Hero Map */}

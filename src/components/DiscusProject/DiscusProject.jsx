@@ -34,10 +34,12 @@ function DiscussProject() {
           <button className="bg-[#feb901] bg-opacity-5 text-yellow-700 hover:bg-[#feb901] text-lg md:text-xl font-sans font-medium flex items-center justify-center gap-2 p-3 md:p-4 lg:p-2 rounded-3xl border border-yellow-700 hover:bg-[#feb901] hover:text-black">
             <IoArrowDown size={24} /> Resume
           </button>
+          <a href="contact-us">
           <button className="bg-[#feb901] text-black text-lg md:text-xl lg:text-2xl font-sans font-medium flex items-center justify-center gap-2 p-3 md:p-4 lg:p-2 rounded-3xl border border-yellow-700 hover:bg-opacity-5 hover:text-[#feb901]">
             <LuMessagesSquare size={24} />
             Discuss Project
           </button>
+          </a>
         </div>
       </div>
     </>
