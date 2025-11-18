@@ -7,8 +7,8 @@ import collage_building from "../../assets/educton/vecteezy_a-yellow-building-wi
 
 function Education() {
   return (
-    <>
-      <hr className="border-[#feb901]/20 border-t-1 mt-20" />
+    <div id="education" className="max-w-7xl mx-auto">
+      <hr className="border-[#feb901]/20 border-t-1 mt-20 " />
       <div className="flex justify-center m-8">
         <div className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-sans font-bold text-[#feb901] shadow-lg">
           Education
@@ -75,7 +75,7 @@ function Education() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

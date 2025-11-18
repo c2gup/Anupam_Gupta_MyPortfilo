@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "Pic-Store",
+    "description": "  A multi-vendor e-commerce platform for photographers, featuring user and seller dashboards, real-time analytics, and a seamless buying experience. Built with modern web technologies..",
+    "image": "crictracker.29f9ef7d.svg",
+    "category": ["Website", "Admin Panel","E-Commerce"],
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "react.7c403179.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.6a338998.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "tailwindcss.eae27b48.svg"
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "bootstrap.d998acf1.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "git.514e511e.svg"
+      },
+      {
+        "name": "GitHub",
+        "icon": "github.de5575e3.svg"
+      }
+    ],
+    "liveUrl": "https://pic-prism-my.vercel.app/",
+    "githubUrl": "https://github.com/c2gup/PicStore",
+    "status": "completed"
+  },
+  {
+    "id": 2,
+    "title": "StudayNotion",
+    "description": "An interactive MERN stack Ed-Tech application designed for seamless learning, featuring course management, student registration, and a user-friendly interface.",
+    "image": "amp.47ce7b15.svg",
+    "category": ["Website", "Website","Full Stack","Admin Panel"],
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "react.7c403179.svg"
+      },
+      {
+        "name": "Next.js",
+        "icon": "nextjs.a98ac74a.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "tailwindcss.eae27b48.svg"
+      },
+      {
+        "name": "React Hook Form",
+        "icon": "react-hook-form.b1e3e984.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.6a338998.svg"
+      }
+    ],
+    "liveUrl": "study-front-eta.vercel.app/",
+    "githubUrl": "https://github.com/c2gup/Studay-Point",
+    "status": "completed"
+  },
+  {
+    "id": 3,
+    "title": "JobPortal",
+    "description": "A full-stack job portal solution with user authentication, job listings, and an admin dashboard.",
+    "image": "amp.47ce7b15.svg",
+    "category": ["Website", "Full Stack", "Admin Panel"],
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "react.7c403179.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.6a338998.svg"
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "bootstrap.d998acf1.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "git.514e511e.svg"
+      },
+      {
+        "name": "GitLab",
+        "icon": "gitlab.3f2acf31.svg"
+      }
+    ],
+    "liveUrl": "",
+    "githubUrl": "https://github.com/c2gup/JobPortal",
+    "status": "in-progress"
+  },
+  {
+    "id": 3,
+    "title": "Coching Website",
+    "description": "A full-stack coaching website with user authentication, course listings, and an admin dashboard.",
+    "image": "amp.47ce7b15.svg",
+    "category": ["Website", "Full Stack", "Admin Panel"],
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "react.7c403179.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.6a338998.svg"
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "bootstrap.d998acf1.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "git.514e511e.svg"
+      },
+      {
+        "name": "GitLab",
+        "icon": "gitlab.3f2acf31.svg"
+      }
+    ],
+    "liveUrl": "https://my-coching.vercel.app/",
+    "githubUrl": "https://my-coching.vercel.app/",
+    "status": "in-progress"
+  }
+]
