@@ -1,20 +1,18 @@
-
-
 import React, { useState } from "react";
 import { HiOutlineDevicePhoneMobile } from "react-icons/hi2";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { FaRegQuestionCircle } from "react-icons/fa";
 import { RxAvatar } from "react-icons/rx";
 import imageCont from "../../assets/contactus/memoji-with-imac.b6578a46.svg";
-import toast, { Toaster } from 'react-hot-toast';
+import toast, { Toaster } from "react-hot-toast";
 
 const ContactPageOne = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: '',
+    name: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
   });
 
   const handleChange = (e) => {
@@ -26,40 +24,52 @@ const ContactPageOne = () => {
     e.preventDefault();
 
     // Simple form validation
-    if (!formData.name || !formData.email || !formData.phone || !formData.subject || !formData.message) {
-      toast.error('Please fill out all fields.');
+    if (
+      !formData.name ||
+      !formData.email ||
+      !formData.phone ||
+      !formData.subject ||
+      !formData.message
+    ) {
+      toast.error("Please fill out all fields.");
       return;
     }
 
     try {
-      const response = await fetch('https://my-backend-p32a.onrender.com/send-email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://my-backend-p32a.onrender.com/send-email",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       if (response.ok) {
-        toast.success('Email sent successfully');
+        toast.success("Email sent successfully");
         setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          subject: '',
-          message: '',
+          name: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: "",
         });
       } else {
-        toast.error('Error sending email');
+        toast.error("Error sending email");
       }
     } catch (error) {
-      console.error('Error:', error);
-      toast.error('Error sending email');
+      console.error("Error:", error);
+      toast.error("Error sending email");
     }
   };
 
   return (
-    <div   id="disc" className="flex justify-center items-center py-12 px-4 sm:px-6 lg:px-8">
+    <div
+      id="contact"
+      className="flex justify-center items-center py-12 px-4 sm:px-6 lg:px-8"
+    >
       <Toaster />
       <div className="relative bg-white dark:bg-theme-white w-full flex flex-col items-center p-6 sm:p-8 md:p-10 lg:p-12 rounded-2xl md:rounded-3xl lg:rounded-4xl max-w-7xl">
         {/* Hero Map */}
@@ -74,7 +84,10 @@ const ContactPageOne = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                   <div className="relative flex items-center bg-[#ecedee] rounded-full h-16">
-                    <RxAvatar className="absolute right-4 text-black" size={34} />
+                    <RxAvatar
+                      className="absolute right-4 text-black"
+                      size={34}
+                    />
                     <input
                       className="w-full h-full pl-6 pr-16 bg-[#ecedee] rounded-full text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400"
                       type="text"
@@ -85,7 +98,10 @@ const ContactPageOne = () => {
                     />
                   </div>
                   <div className="relative flex items-center bg-[#ecedee] rounded-full h-16">
-                    <MdOutlineMarkEmailRead className="absolute right-4 text-black" size={34} />
+                    <MdOutlineMarkEmailRead
+                      className="absolute right-4 text-black"
+                      size={34}
+                    />
                     <input
                       className="w-full h-full pl-6 pr-16 bg-[#ecedee] rounded-full text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400"
                       type="email"
@@ -98,7 +114,10 @@ const ContactPageOne = () => {
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                   <div className="relative flex items-center bg-[#ecedee] rounded-full h-16">
-                    <HiOutlineDevicePhoneMobile className="absolute right-4 text-black" size={34} />
+                    <HiOutlineDevicePhoneMobile
+                      className="absolute right-4 text-black"
+                      size={34}
+                    />
                     <input
                       className="w-full h-full pl-6 pr-16 bg-[#ecedee] rounded-full text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400"
                       type="tel"
@@ -109,7 +128,10 @@ const ContactPageOne = () => {
                     />
                   </div>
                   <div className="relative flex items-center bg-[#ecedee] rounded-full h-16">
-                    <FaRegQuestionCircle className="absolute right-4 text-black" size={34} />
+                    <FaRegQuestionCircle
+                      className="absolute right-4 text-black"
+                      size={34}
+                    />
                     <input
                       className="w-full h-full pl-6 pr-16 bg-[#ecedee] rounded-full text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400"
                       type="text"

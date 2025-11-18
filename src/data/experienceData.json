@@ -1,0 +1,152 @@
+
+
+
+[
+  {
+    "id": 1,
+    "company": "HealthMudraa",
+    "position": "Full Stack Developer ",
+    "duration": "5 Months",
+    "startDate": "2024-08",
+    "endDate": "2024-12",
+    "type": "Internship",
+    "location": "Remote",
+    "description": "Worked as a full-stack developer intern, contributing to healthcare technology solutions. Developed and maintained web applications using modern technologies, collaborated with cross-functional teams, and gained hands-on experience in the healthcare tech industry.",
+    "achievements": [
+      "Developed responsive web applications using React.js and Node.js",
+      "Implemented RESTful APIs for healthcare data management",
+      "Collaborated with UI/UX designers to create user-friendly interfaces",
+      "Participated in code reviews and agile development processes",
+      "Contributed to improving application performance by 25%"
+    ],
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "react.7c403179.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.6a338998.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "tailwindcss.eae27b48.svg"
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "bootstrap.d998acf1.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "git.514e511e.svg"
+      },
+      {
+        "name": "GitHub",
+        "icon": "github.de5575e3.svg"
+      },
+      {
+        "name" : "PostMan",
+        "icon": "postman"
+      },
+       {
+        "name": "Next.js",
+        "icon": "nextjs"
+      }
+    ],
+    "companyLogo": "healthmuddraa",
+    "status": "completed",
+    "category": "Healthcare Technology"
+  },
+  {
+    "id": 2,
+    "company": "Cunard Consulting ",
+    "position": "Junior Mern Stack Developer",
+    "duration": "9 Months",
+    "startDate": "2025-02",
+    "endDate": "2025-11",
+    "type": "Internship",
+    "location": "Remote",
+    "description": "Working as a Junior Developer, responsible for developing and maintaining web applications. Leading small projects,  and contributing to architectural decisions. Focused on creating scalable and efficient solutions.",
+    "achievements": [
+      "Led development of 3 major web applications from conception to deployment",
+
+      
+      "Implemented automated testing strategies reducing bugs by 40%",
+
+      "Optimized application performance resulting in 30% faster load times",
+      "Implemented AI-based solutions for client projects",
+      "Collaborated with product managers to define technical requirements",
+      "Contributed to open-source projects and technical documentation"
+    ],
+    "technologies": [
+         {
+        "name": "React",
+        "icon": "react.7c403179.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.6a338998.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "tailwindcss.eae27b48.svg"
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "bootstrap.d998acf1.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "git.514e511e.svg"
+      },
+      {
+        "name": "GitHub",
+        "icon": "github.de5575e3.svg"
+      },
+    
+      {
+        "name": "Next.js",
+        "icon": "nextjs"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "typescript"
+      },
+      {
+        "name": "Node.js",
+        "icon": "nodejs"
+      },
+      {
+        "name": "Python",
+        "icon": "python"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "postgresql"
+      },
+      {
+        "name": "AWS",
+        "icon": "aws"
+      },
+      {
+        "name": "Docker",
+        "icon": "docker"
+      },
+      {
+        "name": "OpenAI",
+        "icon": "openai"
+      },
+      {
+        "name": "Gemini",
+        "icon": "gemini"
+      },
+      {
+        "name": "Azure",
+        "icon": "azure"
+      }
+    ],
+    "companyLogo": "techsolutions",
+    "status": "current",
+    "category": "Software Development"
+  }
+]
