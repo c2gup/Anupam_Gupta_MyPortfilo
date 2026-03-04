@@ -1,6 +1,39 @@
 [
   {
     "id": 1,
+    "title": "Coder",
+    "description": "Coder is a modern frontend generator built specifically for Next.js applications. It helps developers quickly scaffold, design, and manage UI components with a focus on speed, scalability, and developer experience.",
+    "image": "",
+    "category": ["Website", "Gen-ai","Ai"],
+    "technologies": [
+      {
+        "name": "Next.js",
+        "icon": "nextjs.a98ac74a.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.6a338998.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "tailwindcss.eae27b48.svg"
+      },
+     
+      {
+        "name": "Git",
+        "icon": "git.514e511e.svg"
+      },
+      {
+        "name": "GitHub",
+        "icon": "github.de5575e3.svg"
+      }
+    ],
+    "liveUrl": "https://coder-wine.vercel.app/",
+    "githubUrl": "https://github.com/c2gup/coder",
+    "status": "completed"
+  },
+  {
+    "id": 1,
     "title": "Pic-Store",
     "description": "  A multi-vendor e-commerce platform for photographers, featuring user and seller dashboards, real-time analytics, and a seamless buying experience. Built with modern web technologies..",
     "image": "crictracker.29f9ef7d.svg",
@@ -67,38 +100,7 @@
     "githubUrl": "https://github.com/c2gup/Studay-Point",
     "status": "completed"
   },
-  {
-    "id": 3,
-    "title": "JobPortal",
-    "description": "A full-stack job portal solution with user authentication, job listings, and an admin dashboard.",
-    "image": "amp.47ce7b15.svg",
-    "category": ["Website", "Full Stack", "Admin Panel"],
-    "technologies": [
-      {
-        "name": "React",
-        "icon": "react.7c403179.svg"
-      },
-      {
-        "name": "JavaScript",
-        "icon": "javascript.6a338998.svg"
-      },
-      {
-        "name": "Bootstrap",
-        "icon": "bootstrap.d998acf1.svg"
-      },
-      {
-        "name": "Git",
-        "icon": "git.514e511e.svg"
-      },
-      {
-        "name": "GitLab",
-        "icon": "gitlab.3f2acf31.svg"
-      }
-    ],
-    "liveUrl": "",
-    "githubUrl": "https://github.com/c2gup/JobPortal",
-    "status": "in-progress"
-  },
+  
   {
     "id": 3,
     "title": "Coching Website",
@@ -129,6 +131,6 @@
     ],
     "liveUrl": "https://my-coching.vercel.app/",
     "githubUrl": "https://my-coching.vercel.app/",
-    "status": "in-progress"
+    "status": "completed"
   }
 ]
